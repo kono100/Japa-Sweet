@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate-nos</title>
+    <script src="https://kit.fontawesome.com/c99a9ae526.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="website Icon" type="png" href="img/logoJapaSweets.png">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="header-nav">
+            <label class="logo">Japa Sweets</label>
+            <ul class="nav-ul">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="guloseimas.html">Guloseimas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- inicio do formulario  -->
+    <div id="fieldset_contatos">
+
+        <div class="container">
+          <main>
+        
+              <form class="form">
+        
+                  <div class="form-group">
+                      <label for="name" class="form-group__label">Nome</label>
+                      <input type="text" id="name" name="name" required autocomplete="off" autofocus
+                          class="form-group__input" placeholder="Insira seu Nome">
+                  </div>
+        
+        
+                  <div class="form-group">
+                    <label for="Endereço" class="form-group__label">Endereço</label>
+                    <input type="text" id="Endereço" name="Endereço" required autocomplete="off" autofocus
+                        class="form-group__input" placeholder="Insira o seu Endereço">
+                </div>
+        
+        
+                  <div class="form-group">
+                      <label for="email" class="form-group__label">E-mail</label>
+                      <input type="email" id="email" name="name" required autocomplete="off" class="form-group__input"
+                          placeholder="Insira seu email">
+                  </div>
+        
+                  <div class="form-group half-md">
+                      <label for="phone" class="form-group__label">Telefone</label>
+                      <input type="tel" id="phone" name="phone" required autocomplete="off" class="form-group__input"
+                          placeholder="(99) 99999-9999">
+                  </div>
+        
+        
+                  <div class="form-group half-md">
+                      <label for="subject" class="form-group__label">Assunto</label>
+                      <select name="subject" required autocomplete="off" id="subject" class="form-group__input form-group__select">
+                          <option value="0">Selecione</option>
+                          <option value="1">Dúvidas</option>
+                          <option value="2">Sugestões</option>
+                          <option value="3">Críticas</option>
+                          <option value="4">Elogios</option>
+                          <option value="5">Parcerias</option>
+                          <option value="6">Outro</option>
+                      </select>
+                  </div>
+        
+                  <br><br>
+                  <div >
+                  <h2>Avaliação<h2></div>
+        
+                  <div id="avaliacao" required autocomplete="off" class="form-group__label">
+                  <br><br>
+                  <input type="radio" name="Escolaridade" value="RUIM" required>Ruim  </label>
+                  <input type="radio" name="Escolaridade" value="BOM" required> Bom </label>
+                  <input type="radio" name="Escolaridade" value="EXCE" required> Excelente </label>
+                  <br>
+                  <br>
+                </div>
+                  
+        
+                  <div class="form-group"  required autocomplete="off">
+                      <label for="message" class="form-group__label">Mensagem</label>
+                      <textarea class="form-group__input" id="message" name="message" rows="6"
+                          placeholder="Insira sua mensagem"></textarea>
+                    
+                      <br><br>
+                  </div>
+                  <button id="btn_center" class="form__btn btn--red" type="submit">Enviar mensagem</button>
+              </form>
+        
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+        
+        </div>
+        
+        <img src="img/local.jpg" alt="" height="500px" width="1007px">
+  
+
+    <footer class="footer">
+        <p>
+            <i class="fa-regular fa-envelope"></i>
+            JapaSweets@hotmail.com <br />
+        </p>
+
+        <p>
+            <i class="fa-brands fa-whatsapp"></i>
+            (16) 98863-0184
+            <br>
+            <img src="img/FormasDePagamento.PNG" alt="" width="160">
+        </p>
+    </footer>
+</body>
+
+</html>
