@@ -12,7 +12,7 @@ body{
 
     /* background-color: #e47294; */
     /* imagem do fundo */
-    background-image: url(/img/fundo.jpg);
+    background-image: url(../img/fundo.jpg);
 
     font-family: "Montserrat", sans-serif;
     min-height: 100vh;
